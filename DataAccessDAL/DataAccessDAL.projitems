@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>582e319a-8ad4-44f6-bfc7-04037d7dbb6b</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DataAccessDAL</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CRUD\IMongoDBManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CRUD\IPersonRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CRUD\MongoDBManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CRUD\PersonRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DTO\Models\Person.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DataAccessDAL", "DataAccessDAL\DataAccessDAL.shproj", "{582E319A-8AD4-44F6-BFC7-04037D7DBB6B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DataLogicBAL", "DataLogicBAL\DataLogicBAL.shproj", "{5FBB5F57-5BF6-499C-BDDA-7B2A6137A053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaveenWPFApp", "NaveenWPFApp\NaveenWPFApp.csproj", "{A4A76EBF-1E8D-4377-BC4F-601B173C7904}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DataAccessDAL\DataAccessDAL.projitems*{582e319a-8ad4-44f6-bfc7-04037d7dbb6b}*SharedItemsImports = 13
+		DataLogicBAL\DataLogicBAL.projitems*{5fbb5f57-5bf6-499c-bdda-7b2a6137a053}*SharedItemsImports = 13
+		DataAccessDAL\DataAccessDAL.projitems*{a4a76ebf-1e8d-4377-bc4f-601b173c7904}*SharedItemsImports = 4
+		DataLogicBAL\DataLogicBAL.projitems*{a4a76ebf-1e8d-4377-bc4f-601b173c7904}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4A76EBF-1E8D-4377-BC4F-601B173C7904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A76EBF-1E8D-4377-BC4F-601B173C7904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A76EBF-1E8D-4377-BC4F-601B173C7904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A76EBF-1E8D-4377-BC4F-601B173C7904}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA1A82BC-2E21-4F06-9EC6-FD9D8A0E3C60}
+	EndGlobalSection
+EndGlobal
